@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
         // reCAPTCHA checkbox validation
         if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){ 
             // Google reCAPTCHA API secret key 
-            $secret_key = "6LcoUTksAAAAAK9UHx8vNQ6apTPL_ErSPXjUD85I"; 
+            $secret_key = "..."; 
              
             // reCAPTCHA response verification
             $verify_captcha = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$_POST['g-recaptcha-response']); 
