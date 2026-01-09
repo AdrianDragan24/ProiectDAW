@@ -114,7 +114,7 @@
         <label for="mesaj">Mesaj:</label>
         <textarea id="mesaj" name="mesaj" rows="2" required></textarea>
 
-        <div class="g-recaptcha" data-sitekey="6LcoUTksAAAAAENIEXGsgASU62_15kEDOFqkPCfq"></div>
+        <div class="g-recaptcha" data-sitekey="..."></div>
 
         <input type="submit" name="submit" value="Trimite">
     </form>
